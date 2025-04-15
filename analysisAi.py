@@ -12,31 +12,29 @@ import json
 import time
 
 # JLL brand colors
-JLL_RED = '#E30613'
-JLL_GRAY = '#58595b'
-JLL_LIGHT_GRAY = '#939598'
-JLL_Ocean = '#BCDEE6'
-JLL_Sand = '#E0C6AD'
-JLL_Space = '#003E51'
-JLL_Midnight = '#131E29'
-JLL_Dune = '#D1B9A7'
-JLL_Azure = '#40798D'
-JLL_Sea = '#95C6D5'
-JLL_Orchid = '#955991'
-JLL_meadow = '#A5C6A5'
-JLL_Ceder = '#7D6F64'
-JLL_Periwinkle = '#AABCF4'
-JLL_Forest = '#497749'
-JLL_Dusk = '#D0B5D0'
-JLL_Glacier = '#667579'
-JLL_Sky = '#0C7BA1'
-JLL_Cloud = '#B6C0C2'
-JLL_Success = '#08475E'
+RED = '#E30613'
+GRAY = '#58595b'
+LIGHT_GRAY = '#939598'
+Ocean = '#BCDEE6'
+Sand = '#E0C6AD'
+Space = '#003E51'
+Midnight = '#131E29'
+Dune = '#D1B9A7'
+Azure = '#40798D'
+Sea = '#95C6D5'
+Orchid = '#955991'
+meadow = '#A5C6A5'
+Ceder = '#7D6F64'
+Periwinkle = '#AABCF4'
+Forest = '#497749'
+Dusk = '#D0B5D0'
+Glacier = '#667579'
+Sky = '#0C7BA1'
+Cloud = '#B6C0C2'
+Success = '#08475E'
 
  # Configuration
-BASE_URL = "https://api-prod.jll.com/csp/chat-service/api/v1"
-OKTA_ACCESS_TOKEN = "eyJraWQiOiJuWkV1WFh4emNCVFhvSFVnN1hnSEUwU282SlZldFNKQ09KUXhmVDVQVGEwIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULjJTSUZVQzB2VkVKa1pzTmNobUh2S0hPT3R2ZUQyV21BMUtDeTFoU0tNWDgiLCJpc3MiOiJodHRwczovL2psbC5va3RhLmNvbS9vYXV0aDIvYXVzMWh3cmluaHFPUXBGOG4waDgiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNzI5NDgxMTk3LCJleHAiOjE3Mjk0ODQ3OTcsImNpZCI6IjBvYTFza3lpcGV0MXRxUjJKMGg4IiwidWlkIjoiMDB1MXd6ODhjemJIaGh6SVIwaDgiLCJzY3AiOlsib3BlbmlkIiwiZW1haWwiLCJwcm9maWxlIl0sImF1dGhfdGltZSI6MTcyOTQ3NzYyMiwic3ViIjoiQWJoaXNoZWsuR3VwdGExQGpsbC5jb20iLCJBREdVSUQiOiJCRnpFZHBrdUxrYTE5SzVzZnIySlVRPT0iLCJjb25zdW1lcmNsYWltIjoib2t0YWF1dGhzZXJ2ZXI9YXBpbTtqbGxzeXN0ZW11c2VyPWFwaS1jb25zdW1lci1jaGF0Z3B0LW9pZGM7cHNpZD1KTExHUFRAU0VSVklDRTsifQ.pYuzReB8w8d26tm95o--72I0ZB0P-WKhEBFcWGOVwQ5fuHr8kMZb6af7VGLcRid-B5dr4P2-7kE7IYucxnXKVX517ISRSRMb1sR27nd5x_RziBBiv5KJ2pF4PaUZcxojn1oa_hjPp3KJVuhT-N4FZT3CW5EepWP_5j4gT8iD1cr9tUqkwvmlNMi2av7mHx3WvmxQS5HB6ltXECJbxmXVe5sug7RNwbRcAQSZ1XFuPUTxaAzB7kJI08AdRRVbV5JsR0qclMqnByi0a303DaVdiYALHLzn7OqVp5VfcbpqfIEuvQxjDivx1t1HbQvGss5f7hY9xUyDO9deU1G9uBOwDA"
-SUBSCRIPTION_KEY = "4c58287ee89d47afa78c202ec3f092ab"
+googlegemini apikey = 
 
 def requests_retry_session(
     retries=3,
